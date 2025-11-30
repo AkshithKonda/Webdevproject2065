@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home & Garden - ShopNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-shopping-bag"></i> ShopNow
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Categories</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="login-btn" aria-label="Login">
+                        <i class="fas fa-user"></i> Login
+                    </button>
+                    <button class="cart-btn" aria-label="Shopping cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="hamburger" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Home & Garden</h1>
+                    <p>Furniture, decor, and garden essentials.</p>
+                    <a href="index.html" class="cta-btn">Back to Home</a>
+                </div>
+                <div class="hero-image">
+                    <img src="garden.jpg" alt="Home & Garden category" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Featured Home & Garden</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="garden.jpg" alt="Sofa" loading="lazy">
+                        <h3>Sofa</h3>
+                        <p class="price">$799.99</p>
+                        <button class="add-to-cart-btn" data-product="Sofa" data-price="799.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="garden.jpg" alt="Dining Table" loading="lazy">
+                        <h3>Dining Table</h3>
+                        <p class="price">$499.99</p>
+                        <button class="add-to-cart-btn" data-product="Dining Table" data-price="499.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="garden.jpg" alt="Garden Tools Set" loading="lazy">
+                        <h3>Garden Tools Set</h3>
+                        <p class="price">$89.99</p>
+                        <button class="add-to-cart-btn" data-product="Garden Tools Set" data-price="89.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="garden.jpg" alt="Decorative Lamp" loading="lazy">
+                        <h3>Decorative Lamp</h3>
+                        <p class="price">$129.99</p>
+                        <button class="add-to-cart-btn" data-product="Decorative Lamp" data-price="129.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

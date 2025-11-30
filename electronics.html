@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics - ShopNow</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-shopping-bag"></i> ShopNow
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Categories</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="login-btn" aria-label="Login">
+                        <i class="fas fa-user"></i> Login
+                    </button>
+                    <button class="cart-btn" aria-label="Shopping cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="hamburger" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Electronics</h1>
+                    <p>Discover the latest gadgets, smartphones, and tech accessories.</p>
+                    <a href="index.html" class="cta-btn">Back to Home</a>
+                </div>
+                <div class="hero-image">
+                    <img src="electronics.jpg" alt="Electronics category" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section class="products">
+            <div class="container">
+                <h2>Featured Electronics</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="electronics.jpg" alt="Smartphone" loading="lazy">
+                        <h3>Smartphone</h3>
+                        <p class="price">$599.99</p>
+                        <button class="add-to-cart-btn" data-product="Smartphone" data-price="599.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="electronics.jpg" alt="Laptop" loading="lazy">
+                        <h3>Laptop</h3>
+                        <p class="price">$999.99</p>
+                        <button class="add-to-cart-btn" data-product="Laptop" data-price="999.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="electronics.jpg" alt="Headphones" loading="lazy">
+                        <h3>Headphones</h3>
+                        <p class="price">$149.99</p>
+                        <button class="add-to-cart-btn" data-product="Headphones" data-price="149.99">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="electronics.jpg" alt="Tablet" loading="lazy">
+                        <h3>Tablet</h3>
+                        <p class="price">$399.99</p>
+                        <button class="add-to-cart-btn" data-product="Tablet" data-price="399.99">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>

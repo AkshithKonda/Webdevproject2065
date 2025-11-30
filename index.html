@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow - Your Online Store</title>
+    <meta name="description" content="Shop everything you need at ShopNow. Discover amazing deals, top brands, and fast delivery on electronics, fashion, home goods, and more.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-shopping-bag"></i> ShopNow
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Categories</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search products..." aria-label="Search products">
+                        <button type="submit" aria-label="Search"><i class="fas fa-search"></i></button>
+                    </div>
+                    <button class="login-btn" aria-label="Login">
+                        <i class="fas fa-user"></i> Login
+                    </button>
+                    <button class="cart-btn" aria-label="Shopping cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </button>
+                    <button class="hamburger" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Shop Everything You Need</h1>
+                    <p>Discover amazing deals on top brands with fast, reliable delivery. From electronics to fashion, we've got it all.</p>
+                    <a href="#features" class="cta-btn">Start Shopping</a>
+                </div>
+                <div class="hero-image">
+                    <img src="/download.png" alt="Online shopping illustration" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>At ShopNow, we're committed to providing a seamless online shopping experience. We offer a vast selection of products, competitive prices, and exceptional customer service to make your shopping journey enjoyable and hassle-free.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <h3>1M+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-box"></i>
+                        <h3>500K+</h3>
+                        <p>Products</p>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-truck"></i>
+                        <h3>Fast</h3>
+                        <p>Delivery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Featured Categories</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="electronics.jpg" alt="Electronics category" loading="lazy">
+                        <h3>Electronics</h3>
+                        <p>Latest gadgets, smartphones, and tech accessories.</p>
+                        <a href="electronics.html" class="category-link">Shop Electronics</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="fashion.jpg" alt="Fashion category" loading="lazy">
+                        <h3>Fashion</h3>
+                        <p>Trendy clothing, shoes, and accessories for everyone.</p>
+                        <a href="fashion.html" class="category-link">Shop Fashion</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="garden.jpg" alt="Home & Garden category" loading="lazy">
+                        <h3>Home & Garden</h3>
+                        <p>Furniture, decor, and garden essentials.</p>
+                        <a href="home.html" class="category-link">Shop Home</a>
+                    </div>
+                    <div class="category-card">
+                        <img src="sports.jpg" alt="Sports category" loading="lazy">
+                        <h3>Sports & Fitness</h3>
+                        <p>Equipment and gear for your active lifestyle.</p>
+                        <a href="sports.html" class="category-link">Shop Sports</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"ShopNow has the best selection and prices. My order arrived quickly and in perfect condition!"</p>
+                        <cite>- Sarah Johnson</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Excellent customer service and easy returns. I highly recommend ShopNow for all your shopping needs."</p>
+                        <cite>- Michael Chen</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The website is user-friendly, and I love the deals they offer. Fast shipping too!"</p>
+                        <cite>- Emily Rodriguez</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>support@shopnow.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>1-800-SHOP-NOW</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>123 Commerce St, Shop City, SC 12345</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required aria-label="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ShopNow</h4>
+                    <p>Your one-stop online shop for everything you need.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#features">Categories</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive deals and updates.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email" aria-label="Newsletter email">
+                        <button type="submit" aria-label="Subscribe">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 ShopNow. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        if (localStorage.getItem('loggedIn') !== 'true') {
+            window.location.href = 'login.html';
+        }
+    </script>
+    <script src="script.js"></script>
+    <script src="cart.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
